@@ -1,0 +1,26 @@
+{
+    "author": "mrkou",
+    "description": "绕过大陆和局域网",
+    "domainStrategy": "AsIs",
+    "domains": {
+        "block": [
+            "geosite:category-ads-all"
+        ],
+        "direct": [
+            "geosite:cn",
+            "yonyou.com",
+            "yonyougov.top",
+            "yonyougov.vip"
+        ],
+        "proxy": [
+            "apple.com.cn"
+        ]
+    },
+    "ips": {
+        "direct": [
+            "geoip:private",
+            "geoip:cn"
+        ]
+    },
+    "name": "绕过大陆和局域网"
+}
